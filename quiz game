@@ -1,0 +1,73 @@
+score = 0
+
+#queston 1
+answer=input('what is the capital of india \na.delhi \nb.hyderbad \nc.mumbai \nanswer:')
+if answer == 'a' or answer=='delhi':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is delhi")
+    print('score' , score)
+    print('\n')
+#queston 2
+answer1=input('what is the national game of india \na.cricket \nb.kabadi \nc.hockey \nanswer:')
+if answer1== 'c' or answer1=='hockey':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is hockey")
+    print('score' , score)
+    print('\n')
+#queston 3
+answer2=input('which crop is sown on the largest area in india  \na.rice \nb.wheat \nc.sugarcane \nanswer:')
+if answer2 == 'a' or answer2=='rice':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is rice")
+    print('score' , score)
+    print('\n')
+#queston 4
+answer3=input('entomology is the science that studies \n a.behavior of human beings \nb.insects \nc.the formation of rocks \nanswer:')
+if answer3 == 'b' or answer3== 'insects':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is insets")
+    print('score' , score)
+    print('\n')
+
+#queston 5
+answer4=input('the world smallest country is \n a.canada \nb.maldives \nc.vatican city \nanswer:')
+if answer4 == 'c' or answer4 =='vatican city':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is vatican city")
+    print('score' , score)
+    print('\n')
+#queston 6
+answer5=input('what is the second largest country in the world\n a.canada \nb.russia \nc.china \nanswer:')
+if answer5 == 'a' or answer5=='canada':
+    score+=1
+    print('correct answer')
+    print('score ' , score)
+    print('\n')
+else :
+    print("the correct answer is canada")
+    print('score' , score)
+    print('\n')
+
+
+print('YOUR TOTAL SCORE IS' ,score)
+
